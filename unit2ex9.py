@@ -8,7 +8,7 @@
 a=0
 b=1
 
-answer = int(input('how many Fibonacci numbers to print? '))
+answer = int(input('how many Fibonacci numbers do you want to print? '))
 
 print(b, end=" ")
 
