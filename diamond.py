@@ -9,4 +9,7 @@ for i in range(1,height+1,2):
 
 for k in range (i - 2, 0,-2):
     print(' '*((i-k)//2),'*'*k, sep='')
+    
+    
+    # edited
 
