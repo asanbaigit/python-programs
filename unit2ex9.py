@@ -5,16 +5,15 @@
 # and then prints that many.
 # 1,1,2,3,5,8,13,21,34,55,89...
 
-a=0
+a=1
 b=1
+c=0
 
 answer = int(input('how many Fibonacci numbers do you want to print? '))
-
-print(b, end=" ")
 
 for i in range (answer):
     c=a+b
     a=b
     b=c
-    print (c,end=' ')
+    print (i+1,'---',c)
              
