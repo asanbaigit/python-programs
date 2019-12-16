@@ -7,13 +7,11 @@
 
 height = int(input("Enter the height  : "))
 width = int(input("Enter the width  : "))
-counter = 0
 
 for i in range(height*width):
-        if counter == width :
+        if i%width == 0 :
                 print()
-                counter = 0
-        print(i%10, end=' ')   # i % 10   important !!
-        counter = counter+1
+        print(i%10, end=' ')  
         
-    
+        
+
