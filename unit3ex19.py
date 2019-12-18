@@ -13,5 +13,23 @@ for i in range(height*width):
                 print()
         print(i%10, end=' ')  
         
-        
+  # Here is solution without 'IF'      
+"""
+h=8 'we can take input as well'
+w=4 'we can take input as well'
+c=0
+for i in range(h):
+    for j in range(w):
+        print(c%10,end=' ')
+        c=c+1
+    print() """
 
+ # Here is solution without if and only 1 for
+"""
+h=3
+w=5
+
+for i in range(h*w):
+   cursor = (i%w+1)//w
+   print(i%10,'\n'*cursor, end='')"""
+ 
