@@ -1,8 +1,6 @@
 # Find prime numbers between 1 and  1000
 howmany=0
-num = 0
-for i in range(1,1001):
-    num=num+1
+for num in range(1,1001):
     c=0
     for j in range(1,num+1):
         if num % j == 0:
