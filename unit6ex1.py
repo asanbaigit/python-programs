@@ -17,6 +17,8 @@ print(X[6])
 print(X[1:(len(X)-1)])
 print(X.upper())
 print(X.replace('a','e'))
-print(X.replace('',''))
+print(len(X)*' ')
 if X.isalpha():
     print('is alpha')
+if 'a' in X :
+    print('Your string contains the letter a.')     

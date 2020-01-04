@@ -1,4 +1,4 @@
-# multiplication 
+# multiplication tablica umnojeniya
 
 
 """for i in range (1,11):
