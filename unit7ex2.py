@@ -44,4 +44,8 @@ print('The are ',even,' even numbers in the list')
 print (maks2,' is the second largest number in the list')
 print (mini2,' is the second smallest number in the list')
 
+# print (min(l)) prints minimum in l
+# print (max(l)) prints maximum in l
+# print (sum(l)/len(l)) prints average of l
+
 
