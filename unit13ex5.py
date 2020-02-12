@@ -7,9 +7,9 @@ def first_diff (st1,st2):
             return [i]
     return -1
 
-st1 = input('enter the string')
-st2 = input('enter the string')
+st1 = input('enter the string: ')
+st2 = input('enter the string: ')
 
-r = first_diff(strg)
+r = first_diff(st1,st2)
 print(r)
 

@@ -19,4 +19,3 @@ n = eval(input('enter n : '))
 print(closest(L,n))
 
 
-

@@ -5,7 +5,7 @@ number is the digital root. For example, if n=45893, we add up the digits to get
 the digits of 29 to get 2+9 = 11. We then add up the digits of 11 to get 1+1 = 2. Since 2 has only one digit,
 2 is our digital root. Write a function that returns the digital root of an integer n. 
 [Note: there is a shortcut, where the digital root is equal to n mod 9, but do not use that here.] """
-
+"""
 def sum_digits (num):
     result = 0
     while num > 0:
@@ -25,5 +25,14 @@ def digital_root(num):
 n = eval(input('enter num: '))
 r = digital_root(n)
 print('digital root of ', n, '=', r)
-    
+""" 
 
+# better version
+
+def dig_root(num):
+    while num >= 10:
+        num = sum(int(i)for i in (str(num)))
+    return num
+n = eval(input('enter num: '))
+r = dig_root(n)
+print('digital root of ', n, '=', r)
