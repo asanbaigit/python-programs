@@ -23,3 +23,4 @@ class Investment:
 i = Investment(1000.0, 5.12)
 print(i)
 print(i.value_after(2))
+
