@@ -1,9 +1,8 @@
 class Genre:
-    def __init__(self,id,n):
+    def __init__(self,n):
         self.name = n 
-        self.id = id 
-
+        
     def __str__(self):
-        return str(self.id) + ' ' + self.name
+        return self.name
 
         
